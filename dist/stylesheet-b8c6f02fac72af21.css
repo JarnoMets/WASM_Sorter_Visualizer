@@ -1,0 +1,40 @@
+body {
+    background-color: lightgray;
+}
+
+div.bar {
+    color: blue;
+    background-color :blue;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 1px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0px;
+}
+
+div.navbar {
+    display: block;
+    background-color: #555;
+    margin-bottom: 30px;
+}
+
+div.display-bars {
+    background-color: white;
+}
+
+button.navbar-button {
+    border-width: 0px;
+    border-radius: 0;
+    background: #555;
+    color: White;
+    font-size: 18px;
+    margin: auto 15px;
+    height: auto;
+    padding: 20px;
+}
+
+button.navbar-button:hover {
+    background: #111;
+}
+
